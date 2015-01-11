@@ -10,20 +10,8 @@
 		4CD6C99E1A627CB000C8AFB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6C99D1A627CB000C8AFB5 /* AppDelegate.swift */; };
 		4CD6C9A01A627CB000C8AFB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6C99F1A627CB000C8AFB5 /* ViewController.swift */; };
 		4CD6C9A31A627CB000C8AFB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD6C9A11A627CB000C8AFB5 /* Main.storyboard */; };
-		4CD6C9A51A627CB000C8AFB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD6C9A41A627CB000C8AFB5 /* Images.xcassets */; };
-		4CD6C9A81A627CB000C8AFB5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CD6C9A61A627CB000C8AFB5 /* LaunchScreen.xib */; };
-		4CD6C9B41A627CB000C8AFB5 /* ButtonHitAreaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6C9B31A627CB000C8AFB5 /* ButtonHitAreaTestTests.swift */; };
+		4CD6C9BE1A627CDE00C8AFB5 /* MTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6C9BD1A627CDE00C8AFB5 /* MTButton.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4CD6C9AE1A627CB000C8AFB5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CD6C9901A627CB000C8AFB5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4CD6C9971A627CB000C8AFB5;
-			remoteInfo = ButtonHitAreaTest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4CD6C9981A627CB000C8AFB5 /* ButtonHitAreaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonHitAreaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,22 +19,11 @@
 		4CD6C99D1A627CB000C8AFB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CD6C99F1A627CB000C8AFB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4CD6C9A21A627CB000C8AFB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4CD6C9A41A627CB000C8AFB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4CD6C9A71A627CB000C8AFB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4CD6C9AD1A627CB000C8AFB5 /* ButtonHitAreaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonHitAreaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CD6C9B21A627CB000C8AFB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CD6C9B31A627CB000C8AFB5 /* ButtonHitAreaTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonHitAreaTestTests.swift; sourceTree = "<group>"; };
+		4CD6C9BD1A627CDE00C8AFB5 /* MTButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4CD6C9951A627CB000C8AFB5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CD6C9AA1A627CB000C8AFB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +37,6 @@
 			isa = PBXGroup;
 			children = (
 				4CD6C99A1A627CB000C8AFB5 /* ButtonHitAreaTest */,
-				4CD6C9B01A627CB000C8AFB5 /* ButtonHitAreaTestTests */,
 				4CD6C9991A627CB000C8AFB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				4CD6C9981A627CB000C8AFB5 /* ButtonHitAreaTest.app */,
-				4CD6C9AD1A627CB000C8AFB5 /* ButtonHitAreaTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,11 +52,8 @@
 		4CD6C99A1A627CB000C8AFB5 /* ButtonHitAreaTest */ = {
 			isa = PBXGroup;
 			children = (
-				4CD6C99D1A627CB000C8AFB5 /* AppDelegate.swift */,
 				4CD6C99F1A627CB000C8AFB5 /* ViewController.swift */,
-				4CD6C9A11A627CB000C8AFB5 /* Main.storyboard */,
-				4CD6C9A41A627CB000C8AFB5 /* Images.xcassets */,
-				4CD6C9A61A627CB000C8AFB5 /* LaunchScreen.xib */,
+				4CD6C9BD1A627CDE00C8AFB5 /* MTButton.swift */,
 				4CD6C99B1A627CB000C8AFB5 /* Supporting Files */,
 			);
 			path = ButtonHitAreaTest;
@@ -90,24 +62,9 @@
 		4CD6C99B1A627CB000C8AFB5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4CD6C99D1A627CB000C8AFB5 /* AppDelegate.swift */,
+				4CD6C9A11A627CB000C8AFB5 /* Main.storyboard */,
 				4CD6C99C1A627CB000C8AFB5 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4CD6C9B01A627CB000C8AFB5 /* ButtonHitAreaTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				4CD6C9B31A627CB000C8AFB5 /* ButtonHitAreaTestTests.swift */,
-				4CD6C9B11A627CB000C8AFB5 /* Supporting Files */,
-			);
-			path = ButtonHitAreaTestTests;
-			sourceTree = "<group>";
-		};
-		4CD6C9B11A627CB000C8AFB5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4CD6C9B21A627CB000C8AFB5 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,24 +89,6 @@
 			productReference = 4CD6C9981A627CB000C8AFB5 /* ButtonHitAreaTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4CD6C9AC1A627CB000C8AFB5 /* ButtonHitAreaTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4CD6C9BA1A627CB000C8AFB5 /* Build configuration list for PBXNativeTarget "ButtonHitAreaTestTests" */;
-			buildPhases = (
-				4CD6C9A91A627CB000C8AFB5 /* Sources */,
-				4CD6C9AA1A627CB000C8AFB5 /* Frameworks */,
-				4CD6C9AB1A627CB000C8AFB5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4CD6C9AF1A627CB000C8AFB5 /* PBXTargetDependency */,
-			);
-			name = ButtonHitAreaTestTests;
-			productName = ButtonHitAreaTestTests;
-			productReference = 4CD6C9AD1A627CB000C8AFB5 /* ButtonHitAreaTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +100,6 @@
 				TargetAttributes = {
 					4CD6C9971A627CB000C8AFB5 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					4CD6C9AC1A627CB000C8AFB5 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 4CD6C9971A627CB000C8AFB5;
 					};
 				};
 			};
@@ -182,7 +117,6 @@
 			projectRoot = "";
 			targets = (
 				4CD6C9971A627CB000C8AFB5 /* ButtonHitAreaTest */,
-				4CD6C9AC1A627CB000C8AFB5 /* ButtonHitAreaTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -193,15 +127,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CD6C9A31A627CB000C8AFB5 /* Main.storyboard in Resources */,
-				4CD6C9A81A627CB000C8AFB5 /* LaunchScreen.xib in Resources */,
-				4CD6C9A51A627CB000C8AFB5 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CD6C9AB1A627CB000C8AFB5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,28 +137,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CD6C9BE1A627CDE00C8AFB5 /* MTButton.swift in Sources */,
 				4CD6C9A01A627CB000C8AFB5 /* ViewController.swift in Sources */,
 				4CD6C99E1A627CB000C8AFB5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CD6C9A91A627CB000C8AFB5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CD6C9B41A627CB000C8AFB5 /* ButtonHitAreaTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4CD6C9AF1A627CB000C8AFB5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4CD6C9971A627CB000C8AFB5 /* ButtonHitAreaTest */;
-			targetProxy = 4CD6C9AE1A627CB000C8AFB5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4CD6C9A11A627CB000C8AFB5 /* Main.storyboard */ = {
@@ -242,14 +152,6 @@
 				4CD6C9A21A627CB000C8AFB5 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4CD6C9A61A627CB000C8AFB5 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CD6C9A71A627CB000C8AFB5 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -354,40 +256,6 @@
 			};
 			name = Release;
 		};
-		4CD6C9BB1A627CB000C8AFB5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ButtonHitAreaTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonHitAreaTest.app/ButtonHitAreaTest";
-			};
-			name = Debug;
-		};
-		4CD6C9BC1A627CB000C8AFB5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ButtonHitAreaTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonHitAreaTest.app/ButtonHitAreaTest";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -407,14 +275,7 @@
 				4CD6C9B91A627CB000C8AFB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		4CD6C9BA1A627CB000C8AFB5 /* Build configuration list for PBXNativeTarget "ButtonHitAreaTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4CD6C9BB1A627CB000C8AFB5 /* Debug */,
-				4CD6C9BC1A627CB000C8AFB5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
